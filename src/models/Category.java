@@ -55,4 +55,8 @@ public class Category {
 
     // Setters --------------------------------------------------------
 
+    public void setName(String name) {
+        Objects.requireNonNull(name, "Name cannot be null");
+        this.name = name;
+    }
 }
