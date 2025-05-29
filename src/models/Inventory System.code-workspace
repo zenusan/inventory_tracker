@@ -1,0 +1,12 @@
+{
+  "folders": [
+	{
+		"path": "../.."
+	}
+],
+  "settings": {
+    "cSpell.words": ["Greenfoot"],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.referencedLibraries": ["lib/**/*.jar"]
+  }
+}
