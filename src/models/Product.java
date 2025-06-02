@@ -44,7 +44,7 @@ public class Product {
     public String getCategory() {
         return category;
     }
-    public double getWholesalePrice() {
+    public double getDiscountedPrice() {
         return retailPrice * (1 - discount);
     }
 

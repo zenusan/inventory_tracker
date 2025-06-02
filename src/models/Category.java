@@ -53,6 +53,10 @@ public class Category {
         return description;
     }
 
+    public List<Product> getProducts() {
+        return new ArrayList<>(products); // Return a copy to prevent external modification
+    }
+
     // Setters --------------------------------------------------------
 
     public void setName(String name) {
